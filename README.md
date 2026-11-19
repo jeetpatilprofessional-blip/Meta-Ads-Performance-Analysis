@@ -1,19 +1,38 @@
-# Meta Ads Performance Analysis Dashboard
+# Meta Ads Performance Analysis | Power BI
 
-A Power BI dashboard analyzing Meta (Facebook and Instagram) ad campaigns, focusing on engagement, conversions, audience insights, ad performance, and budget optimization.
+## Overview
+An interactive Power BI project exploring Meta advertising campaign performance, audience engagement, and conversion outcomes. The report is designed to help analyze campaign activity and identify performance patterns across available campaign and audience dimensions.
 
-## KPIs
-Impressions, clicks, shares, comments, purchases, engagements, CTR, engagement rate, conversion rate, purchase rate, total budget and average campaign budget.
+## Key Metrics
+- Impressions: **216K**
+- Clicks: **25.4K**
+- Purchases: **1.3K**
+- Engagements: **29K**
+- Click-through rate (CTR): **11.76%**
+- Engagement rate: **13.56%**
+- Conversion rate: **5.21%**
+- Purchase rate: **0.61%**
+- Total budget: **2.5M** (dataset units)
+- Average campaign budget: **50.7K** (dataset units)
 
-## Highlights
-- 216K impressions; 25.4K clicks; 1.3K purchases; 29K engagements.
-- CTR: 11.76%; Engagement rate: 13.56%; Conversion rate: 5.21%; Purchase rate: 0.61%.
-- Total budget: 2.5M; average campaign budget: 50.7K.
+> Metrics are reported from the dashboard and dataset as currently documented. Rates depend on the project's measure definitions; budget values are presented in dataset units, not a specified currency.
 
-## Repository Structure
-Dataset/ — source CSV files
-Dashboard/ — Power BI dashboard
-Documentation/ — requirements and insights PDFs
+## Questions Explored
+- How do clicks and engagement compare with impressions?
+- Which campaign or audience segments appear to perform differently?
+- How do purchases and conversion measures vary across the available dimensions?
+- How is budget distributed across campaigns?
 
 ## Tools
-Power BI and dashboard-based campaign performance analysis.
+- Microsoft Power BI
+- DAX measures
+- Data visualization and interactive reporting
+
+## Repository Contents
+- `Dataset/` — CSV data files.
+- `Documentation/` — business requirements and dashboard insights.
+- `Project/` — Power BI report file.
+
+## Limitations
+This is a portfolio analysis of the supplied dataset. Dashboard metrics alone do not establish causality or guarantee real-world campaign performance. Interpret results within the dataset's definitions and coverage.
+
